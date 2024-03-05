@@ -20,7 +20,7 @@ function Backend() {
                 <i className='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">Node Js</h3>
+                    <h3 className="skills__name">Node.js</h3>
                     <span className="skills__level">Basic</span>
                 </div>
                 </div>
@@ -40,7 +40,7 @@ function Backend() {
                 <i className='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">MySQL</h3>
+                    <h3 className="skills__name">Express.js</h3>
                     <span className="skills__level">Basic</span>
                 </div>
                 </div>
@@ -58,7 +58,7 @@ function Backend() {
                 <i className='bx bx-badge-check'></i>
 
                 <div>
-                    <h3 className="skills__name">SQL</h3>
+                    <h3 className="skills__name">MongoDB</h3>
                     <span className="skills__level">Basic</span>
                 </div>
                 </div>

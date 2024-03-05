@@ -27,32 +27,32 @@ function Services() {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Product Designer</h3>
-              <p className="services__modal-description">I am new to the world of frontend web development. With my continuous professional development, I strive to meet all needs.</p>
+              <p className="services__modal-description">As a Product Designer, my primary goal is to deliver high-quality and user-friendly user experiences. Through continuous professional development, I strive to meet all needs.</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Designing and developing user interfaces.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Developing and designing web pages.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
+                  <p className="services__modal-info">Designing and implementing interactive user experience elements.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I position your company brand.</p>
+                  <p className="services__modal-info">Positioning and representing company brands.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info">Designing products and creating mockups for companies.</p>
                 </li>
               </ul>
             </div>
@@ -72,32 +72,32 @@ function Services() {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              <p className="services__modal-description">I am new to the world of frontend web development. With my continuous professional development, I strive to meet all needs.</p>
+              <p className="services__modal-description">As a UI/UX Designer, my main focus is on crafting seamless and intuitive user experiences. I am dedicated to continual professional growth to ensure that I meet evolving industry standards and user expectations.</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Designing visually appealing and functional user interfaces.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Developing user-centric web pages with a keen eye for aesthetics and usability.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
+                  <p className="services__modal-info">Creating engaging user interactions and intuitive navigation flows.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I position your company brand.</p>
+                  <p className="services__modal-info">Enhancing brand identity and cohesion through strategic design choices.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info">Crafting product designs and mockups that align with client objectives and user needs.</p>
                 </li>
               </ul>
             </div>
@@ -117,32 +117,32 @@ function Services() {
               <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
               <h3 className="services__modal-title">Visual Designer</h3>
-              <p className="services__modal-description">I am new to the world of frontend web development. With my continuous professional development, I strive to meet all needs.</p>
+              <p className="services__modal-description">As a Visual Designer, my primary focus is on creating captivating and visually compelling designs. I am dedicated to refining my craft through continuous learning and exploration of new trends and techniques.</p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop the user interface.</p>
+                  <p className="services__modal-info">Crafting visually stunning and aesthetically pleasing designs for various platforms and mediums.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Developing cohesive brand identities and visual language systems that resonate with target audiences.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create ux element interactions.</p>
+                  <p className="services__modal-info">Creating impactful marketing materials, including advertisements, banners, and promotional assets.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I position your company brand.</p>
+                  <p className="services__modal-info">Collaborating closely with cross-functional teams to ensure brand consistency and alignment with project objectives.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Design and mockups of products for companies.</p>
+                  <p className="services__modal-info">Utilizing a deep understanding of color theory, typography, and composition to create engaging visual experiences.</p>
                 </li>
               </ul>
             </div>

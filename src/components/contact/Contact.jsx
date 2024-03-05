@@ -30,7 +30,7 @@ function Contact() {
                         <h3 className="contact__card-title">Email</h3>
                         <span className="contact__card-data">gabor.kupeczki@gmail.com</span>
 
-                        <a href="mailto:gabor.kupeczki@gmail.com" className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="mailto:gabor.kupeczki@gmail.com" target='blank' className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -39,22 +39,22 @@ function Contact() {
                         <h3 className="contact__card-title">Whatsapp</h3>
                         <span className="contact__card-data">+3620-218-5505</span>
 
-                        <a href="https://api.whatsapp.com/send?phone=36202185505&text=Hello, more information!" className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=36202185505&text=Hello, more information!" target='blank' className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-messenger contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Messenger</h3>
-                        <span className="contact__card-data">user.fb123</span>
+                        <span className="contact__card-data">gabor.kupeczki</span>
 
-                        <a href="https://www.facebook.com/kupeczki.gabor" className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="https://www.messenger.com/t/100000679375533/" target='blank' className="contact__button">Write me{" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
 
             <div className="contact__content">
-                <h3 className="contact__title">Write me your project</h3>
+                <h3 className="contact__title">Write me</h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
@@ -68,8 +68,8 @@ function Contact() {
                     </div>
 
                     <div className="contact__form-div contact__form-area">
-                        <label className="contact__form-tag">Project</label>
-                        <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write your project'></textarea>
+                        <label className="contact__form-tag">Text</label>
+                        <textarea name="project" cols="30" rows="10" className='contact__form-input' placeholder='Write me'></textarea>
                     </div>
                     <button className="button button--flex">
                         Send Message
