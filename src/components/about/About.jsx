@@ -1,6 +1,6 @@
 import "./about.css";
-import AboutImg from "../../assets/MyPhoto.jpg";
-import CV from "../../assets/Kupeczki-CV.pdf";
+import AboutImg from "../../assets/Mypicture.jpg";
+import CV from "../../assets/Kupeczki-CV-ENG.pdf";
 import Info from './Info';
 
 function About() {
