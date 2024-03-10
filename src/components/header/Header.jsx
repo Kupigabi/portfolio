@@ -12,7 +12,6 @@ function Header() {
   });
   /* ========== Toggle Menu ========== */
   const [Toggle, showMenu] = useState(false);
-  const [activeNav, setActiveNav] = useState("home");
 
   return (
     <header className="header">
@@ -37,10 +36,6 @@ function Header() {
                 smooth={true}
                 offset={0}
                 duration={100}
-                onClick={() => setActiveNav("home")}
-                className={
-                  activeNav === "home" ? "nav__link active-link" : "nav__link"
-                }
               >
                 <i className="uil uil-estate nav__icon"></i> Home
               </Link>
@@ -51,12 +46,8 @@ function Header() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-65}
+                offset={20}
                 duration={100}
-                onClick={() => setActiveNav("about")}
-                className={
-                  activeNav === "about" ? "nav__link active-link" : "nav__link"
-                }
               >
                 <i className="uil uil-user nav__icon"></i> About
               </Link>
@@ -67,14 +58,8 @@ function Header() {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={20}
                 duration={100}
-                onClick={() => setActiveNav("skills")}
-                className={
-                  activeNav === "skills"
-                    ? "nav__link active-link"
-                    : "nav__link"
-                }
               >
                 <i className="uil uil-file nav__icon"></i> Skills
               </Link>
@@ -85,14 +70,8 @@ function Header() {
                 to="services"
                 spy={true}
                 smooth={true}
-                offset={-50}
+                offset={20}
                 duration={100}
-                onClick={() => setActiveNav("services")}
-                className={
-                  activeNav === "services"
-                    ? "nav__link active-link"
-                    : "nav__link"
-                }
               >
                 <i className="uil uil-briefcase-alt nav__icon"></i> Services
               </Link>
@@ -103,14 +82,8 @@ function Header() {
                 to="portfolio"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={20}
                 duration={100}
-                onClick={() => setActiveNav("portfolio")}
-                className={
-                  activeNav === "portfolio"
-                    ? "nav__link active-link"
-                    : "nav__link"
-                }
               >
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
               </Link>
@@ -121,14 +94,8 @@ function Header() {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-60}
+                offset={22}
                 duration={100}
-                onClick={() => setActiveNav("contact")}
-                className={
-                  activeNav === "contact"
-                    ? "nav__link active-link"
-                    : "nav__link"
-                }
               >
                 <i className="uil uil-message nav__icon"></i> Contact
               </Link>
