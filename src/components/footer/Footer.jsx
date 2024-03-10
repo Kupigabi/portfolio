@@ -1,4 +1,5 @@
 import './footer.css'
+import { Link } from 'react-scroll'
 
 function Footer() {
   return (
@@ -8,11 +9,19 @@ function Footer() {
 
             <ul className="footer__list">
                 <li>
-                    <a href="#about" className="footer__link">About</a>
+                    <Link to="about"
+          spy={true}
+          smooth={true}
+          offset={20}
+          duration={100} className="footer__link">About</Link>
                 </li>
 
                 <li>
-                    <a href="#portfolio" className="footer__link">Projects</a>
+                    <Link to="portfolio"
+          spy={true}
+          smooth={true}
+          offset={20}
+          duration={100} className="footer__link">Projects</Link>
                 </li>
 
                {/*  <li>

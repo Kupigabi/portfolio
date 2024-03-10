@@ -12,6 +12,10 @@
     color: var(--title-color);
 }
 
+.footer__link {
+    cursor: pointer;
+}
+
 .footer__title {
     text-align: center;
     margin-bottom: var(--mb-2);
