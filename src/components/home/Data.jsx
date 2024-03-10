@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 function Data() {
   return (
@@ -7,9 +8,13 @@ function Data() {
         <h3 className="home__subtitle">Frontend Web Developer</h3>
         <p className="home__description">As a Frontend Web Developer, I excel at crafting modern, user-friendly, and aesthetically pleasing web interfaces. With comprehensive technical expertise, creativity, and dedication, I am capable of delivering high-quality, responsive, and optimized websites that meet the needs and expectations of clients.</p>
 
-        <a href="#contact" className="button button--flex">
+        <Link to="contact" 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-60} 
+                        duration={100} className="button button--flex">
             Say Hello
-        </a>
+        </Link>
     </div>
   )
 }

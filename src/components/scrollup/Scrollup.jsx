@@ -1,5 +1,6 @@
 import React from 'react'
 import './scrollup.css'
+import { Link } from 'react-scroll';
 
 function Scrollup() {
     window.addEventListener("scroll", function () {
@@ -8,9 +9,13 @@ function Scrollup() {
         else scrollUp.classList.remove("show-scroll")
     });
   return (
-    <a href="#" className="scrollup">
+    <Link to="home" 
+    spy={true} 
+    smooth={true} 
+    offset={0} 
+    duration={100} className="scrollup">
         <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </Link>
   )
 }
 
