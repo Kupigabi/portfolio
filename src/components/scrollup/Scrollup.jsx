@@ -1,4 +1,3 @@
-import React from 'react'
 import './scrollup.css'
 import { Link } from 'react-scroll';
 

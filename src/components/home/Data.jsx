@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-scroll'
 
 function Data() {
@@ -11,7 +10,7 @@ function Data() {
         <Link to="contact" 
                         spy={true} 
                         smooth={true} 
-                        offset={-60} 
+                        offset={22} 
                         duration={100} className="button button--flex">
             Say Hello
         </Link>

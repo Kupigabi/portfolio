@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 import { useState } from "react";
 import "./header.css";

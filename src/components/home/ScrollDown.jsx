@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-scroll";
 
 function ScrollDown() {
@@ -8,7 +7,7 @@ function ScrollDown() {
         to="about"
         spy={true}
         smooth={true}
-        offset={-65}
+        offset={20}
         duration={100}
         className="home__scroll-button button--flex"
       >

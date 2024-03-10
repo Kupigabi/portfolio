@@ -1,5 +1,3 @@
-import React from 'react'
-
 function WorkItems({ item }) {
   return (
     <div className="work__card" key={item.id}>
